@@ -6,12 +6,12 @@ int print(string inputString, float inputfloat=0, string end="\n") {
     return 0;
 }
 
-// int inputInt(string message)
-//     int intValue;
-//     cout << message;
-//     getline (cin, intValue);
-//     return intValue;
-// }
+int inputInt(string message) {
+    int intValue;
+    cout << message;
+    cin >> intValue;
+    return intValue;
+}
 
 string inputStr(string message="") {
     string strValue;
@@ -25,8 +25,7 @@ int main() {
     print("Test Gaming",1);
     print("Test Gaming",2); // test recreation of print() from py
     x = inputStr("Insert String Value >> "); // recreation of input() from py, however this is specific to one data type
-    cout << "input a float >> ";
-    cin >> y;
+    y = inputInt("Insert Integer Value >> ");
     print(x,y);
     return 0;
 }
