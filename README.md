@@ -6,4 +6,4 @@ This is merely here to keep track of my adventure to learning how to C++ in orde
 cuz for the life of me I cannot get Python.h to be not "no such file or directory" ;-;
 
 # Adventure
-[I am following this to learn C++][https://www.w3schools.com/cpp/cpp_getstarted.asp]
+[I am following this to learn C++](https://www.w3schools.com/cpp/cpp_getstarted.asp)
