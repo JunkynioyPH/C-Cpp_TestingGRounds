@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int print(string inputString, float inputfloat=0) {
-    cout << inputString << inputfloat << "\n";
+int print(string inputString, float inputfloat=0, string end="\n") {
+    cout << inputString << inputfloat << end;
+    return 0;
 }
 
-// int inputInt(string message) {
+// int inputInt(string message)
 //     int intValue;
 //     cout << message;
 //     getline (cin, intValue);
