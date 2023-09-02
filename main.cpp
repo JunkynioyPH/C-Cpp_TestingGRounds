@@ -6,7 +6,7 @@ int print(string inputString, float inputfloat=0, string end="\n") {
     return 0;
 }
 
-int inputInt(string message) {
+int inputInt(string message="") {
     int intValue;
     cout << message;
     cin >> intValue;
